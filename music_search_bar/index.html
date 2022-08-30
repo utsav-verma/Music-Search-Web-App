@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <form action ="https://www.google.com/search" method ="GET" class ="search-bar"name='form'>
+            <input type ="text" name="q" placeholder="Music Search" id="input-get">
+            <button type ="submit" id="src-result"><img src="images/search.png"></button>
+            
+            </form>
+            <script type="text/javascript">
+               let myInput = document.querySelector('input[name="q"]');
+               myInput.value ='<Enter the Music> site:open.spotify.com ';
+            </script>
+            
+    </div>
+
+</body>
+</html>
