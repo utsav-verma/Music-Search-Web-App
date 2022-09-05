@@ -8,20 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <script type="text/javascript" src="script.js" ></script>
     <div class="container">
-        
-        <form action ="https://www.google.com/search" method ="GET" class ="search-bar"name='form'>
             <input type ="text" name="q" placeholder="Music Search" id="input-get">
-            <button type ="submit" id="src-result"><img src="images/search.png"></button>
-            
-            </form>
-            <script type="text/javascript">
-               let myInput = document.querySelector('input[name="q"]');
-               myInput.value ='<Enter the Music> site:open.spotify.com ';
-            </script>
-            
+            <button type ="submit" id="src-result" onclick =demo()><img src="images/search.png"></button>
     </div>
-
+   
 </body>
 </html>
